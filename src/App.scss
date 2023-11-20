@@ -1,0 +1,445 @@
+.header{
+  background-color: white;
+color: #ff3447;
+  a{
+    color: #ff3447 !important;
+    font-weight: 600;
+  }
+}
+.footer{
+  background-color: #ff3447;
+  color: white ;
+}
+.register{
+  background-color: #ff3447;
+  color: white;
+  h1{
+    font-weight: 700;
+  }
+  span{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
+}
+.donation{
+  // background-color: #E3E2DF;
+  // color: white;
+  // background-color: #ff3447;
+  color: #ff3447;
+  .donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .donate2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .why{
+    font-weight: 700;
+    font-size: 55px;
+  }
+  h1{
+    font-size: 40px !important;
+  }
+  p{
+    font-size: 15px;
+  }
+  li{
+    font-weight: bold !important;
+  }
+}
+.donorday{
+  // color: #ff3447;
+  .day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    // height: 90vh;
+  }
+}
+.search{
+background-image: url("./Media/red-white-triangular-cardboard-sheets-with-copy-space.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  // background-color: #e84c3d ;
+  color: white;
+  height: 90vh;
+  // width: 100%;
+}
+.modal{
+  color: black  !important;
+}
+.modal.show .modal-dialog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh !important;
+}
+label{
+  font-size: 25px !important;
+  font-weight: 500;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+select {
+  word-wrap: normal;
+  font-size: 20px;
+  height: 45px;
+  border: 2px solid #ff3447;
+  border-radius: 12px;
+}
+.donors{
+  margin-top: 170px !important;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+ 
+}
+.selection{
+  font-size: 20px !important;
+
+}
+.button{
+  font-size: 20px !important;
+  color: #e84c3d;
+  border: none;
+  border-radius: 10px;
+  outline: none !important;
+  padding-left: 5px !important;
+  font-weight: bold;
+  // border-color: 2px solid #e84c3d !important;
+  margin-top: 33px;
+}
+.btn{
+  background-color:white !important;
+  color: black !important;
+  outline: none !important;
+  margin-top: 30px;
+}
+.appointment{
+  background-color: #ff3447;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.inputfield{
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+  outline: none;
+  width: 490px;
+}
+.textarea{
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+  outline: none; 
+}
+.getappointment{
+  background-color: #ff3447;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.searchbar{
+  display: flex;
+}
+.request{
+  .btn{
+    background-color: transparent !important;
+    color: #ff3447 !important;
+    font-weight: 700 !important;
+    border: 2px solid #ff3447 !important;
+    &:hover{
+      background-color: #ff3447 !important;
+      color: white !important;
+    }
+  }
+  .card-header{
+    background-color: #ff3447 !important;
+    color: white !important;
+  }
+}
+.donationprocess{
+  .section-content-block {
+    padding: 60px 0;
+  }
+  .section-heading {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: normal;
+    margin-bottom: 12px;
+  }
+  .section-heading:after,
+  .section-heading:before {
+    display: none;
+  }
+  .section-subheading {
+    font-size: 18px;
+    padding: 0px;
+  }
+  #slider_1 .slider-content {
+    margin-top: 12px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-55%);
+  }
+  #slider_1 .slider-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #slider_1 .slider-content h3 {
+    font-size: 20px;
+    display: none;
+  }
+  #slider_1 .slider-content a.btn-slider {
+    font-size: 16px;
+    margin-top: 16px;
+    background: #FE3C47;
+    border: 2px solid #FE3C47;
+    color: #FFFFFF;
+    height: 42px;
+    line-height: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    text-align: left;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+  }
+  #slider_1 .slider-content a.btn-slider:hover {
+    background: #fe0917;
+    border: 2px solid #FE3C47;
+    color: #FFFFFF;
+  }
+  .section-banner {
+    padding: 130px 0px;
+  }
+  .section-banner .banner-content {
+    transform: translateY(-30px);
+  }
+  .section-banner .banner-content h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .section-banner .banner-content h3 {
+    font-size: 20px;
+    display: none;
+  }
+  .process-layout {
+    margin: 0 0 32px 0;
+  }
+  .process-layout h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .team-layout-1 {
+    margin-bottom: 30px;
+  }
+  .appointment-form-wrapper {
+    margin: 48px 0;
+    padding: 0px 5px 28px;
+  }
+  .appointment-form-wrapper h3 {
+    font-weight: 600;
+    margin: 0 -5px 32px;
+    position: relative;
+  }
+  .appoinment-form {
+    padding: 0 0px;
+  }
+  .section-counter {
+    padding: 48px 0;
+  }
+  .event-latest {
+    clear: both;
+  }
+  .event-latest .event-details {
+    padding: 12px 6px 0 12px;
+  }
+  .cta-section .cta-content h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+// ############our team##################
+.section-our-team {
+  clear: both;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.section-our-team .team-centered {
+  text-align: center !important;
+}
+.team-layout-1 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #EEE;
+}
+.team-layout-1 .team-member img {
+  vertical-align: middle;
+  width: 100%;
+}
+.team-layout-1 .team-info {
+  padding: 5px 12px;
+  text-align: center;
+}
+.team-layout-1 h3 {
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  margin: 15px 0 0 0;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #1A1A1A;
+}
+.team-layout-1 h4 {
+  font-family: 'Dosis', sans-serif;
+  color: #808080;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.team-layout-1 p {
+  margin-top: 0;
+}
+.team-layout-1 .team-content {
+  background: #F8F9FA;
+}
+.team-layout-1 .team-content .team-social-share {
+  border-top: 1px solid #EEE;
+  margin: 0px 0px;
+  padding: 15px;
+}
+.team-layout-1 .team-content .team-social-share a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 2px;
+  text-align: center;
+  width: 40px;
+  color: #FE3C47;
+  border: 1px solid #EEE;
+  background: #FFFFFF;
+}
+.team-layout-1 .team-content .team-social-share a:hover {
+  color: #d3010d;
+}
+
+// ###############testonomical ######################
+.section-client-testimonial {
+  background-image: url("./Media/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.section-client-testimonial:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  content: '';
+  width: 100%;
+  height: 2000px;
+}
+.section-client-testimonial .testimonial-container {
+  padding: 80px 0px;
+  background: #F8F9FA;
+}
+.section-client-testimonial .testimony-layout-1 {
+  position: relative;
+  padding: 0;
+}
+.section-client-testimonial .testimony-layout-1 .people-quote {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FE3C47;
+  margin-bottom: 24px;
+}
+.section-client-testimonial .testimony-layout-1 h6 {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.section-client-testimonial .testimony-layout-1 span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+.section-client-testimonial .testimony-layout-1 p.testimony-text {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  margin: 0 0 24px 0;
+  padding-top: 24px;
+  color: #333333;
+}
+.section-client-testimonial .testimony-layout-1 p.testimony-text i {
+  color: #808080;
+  font-style: normal;
+  opacity: 0.4;
+}
+.section-client-testimonial .testimonial-container .owl-controls {
+  display: block;
+  position: relative;
+  margin-top: 0px;
+}
+.section-client-testimonial .testimonial-container .owl-controls .owl-dots {
+  margin: 24px 0 0 0;
+}
+.section-client-testimonial .testimonial-container .owl-controls .owl-dots .owl-dot {
+  display: inline-block;
+  padding: 2px;
+  width: 14px;
+  height: 14px;
+  background: transparent;
+  border: 1px solid #CCCCCC;
+  margin: 0 4px;
+}
+.section-client-testimonial .testimonial-container .owl-controls .owl-dots .owl-dot span {
+  display: block;
+}
+.section-client-testimonial .testimonial-container .owl-controls .owl-dots .active span {
+  padding: 2px;
+  width: 8px;
+  height: 8px;
+  background: #fe6f77;
+}
+.btn-cta {
+  width: 200px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchbar{
+    display: flex;
+    flex-direction: column;
+  }
+}
