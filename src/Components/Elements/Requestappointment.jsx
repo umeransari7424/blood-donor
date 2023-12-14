@@ -6,13 +6,13 @@ function Requestappointment() {
 
     };
     return (
-        <div className='request'>
+        <div className='request' id='req-appointment'>
             <section className="section-appointment">
                 <div className="container wow fadeInUp">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 hidden-sm hidden-xs">
                             <figure className="appointment-img">
-                                <img src="/Assets/appointment.jpg" alt="appointment image" />
+                                <img src="/Assets/appointment.jpg" alt="appointment image" className='img-fluid appoint-image' />
                             </figure>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-5">
@@ -35,10 +35,10 @@ function Requestappointment() {
                                     </div>
                                   
                                     <div className='mb-3 '>
-                                        <textarea name="text" class="form-control p-3"  rows="4" placeholder='Enter Description'></textarea>
+                                        <textarea name="text" class="form-control p-3"  rows="5" placeholder='Enter Description'></textarea>
                                     </div>     
                                     <div className='mb-3 text-center'>
-                                        <button className='btn px-5 py-4'>Submit</button>
+                                        <button className='btn px-5 py-2'>Submit</button>
                                     </div>                               
                                 </div>
                             </div>

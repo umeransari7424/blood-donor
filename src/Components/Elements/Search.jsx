@@ -39,21 +39,19 @@ function Search() {
     setModalOpen(false);
   };
   return (
-    <div className="search">
-      <div className="container-fluid text-center">
+    <div className="searchbg">
+      <div className="container-fluid text-center py-5 my-5">
         <div className="row d-flex justify-content-center">
           {/* <div className="col-md-4"></div> */}
-          <div className="col-md-6 donors text-start">
+          <div className="col-md-6  ">
             <div className="text-center">
-              <h1>Search Donors</h1>
+              <h1 style={{color:'black'}}>Search Donors</h1>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 d-flex gap-4">
               <div>
-
-
-                <label htmlFor="city">Select City: </label> &nbsp;&nbsp;
+                {/* <label htmlFor="city">Select City:</label> &nbsp;&nbsp; */}
                 <select id="city" className="selection" value={selectedCity} onChange={handleCityChange}>
-                  <option value="">Select a city</option>
+                  <option value="">Select a city </option>
                   {/* Assume all cities are unique in your data */}
                   {[...new Set(personData.map((person) => person.city))].map((city) => (
                     <option key={city} value={city}>
@@ -63,9 +61,6 @@ function Search() {
                 </select>
               </div> <br />
               <div>
-
-
-                <label htmlFor="bloodGroup">Blood Group: </label>
                 <select id="bloodGroup" className="selection" value={selectedBloodGroup} onChange={handleBloodGroupChange}>
                   <option value="">Select a blood group</option>
                   {[...new Set(personData.map((person) => person.bloodGroup))].map((bloodGroup) => (
@@ -75,14 +70,16 @@ function Search() {
                   ))}
                 </select>
               </div>
-
-              <div className="text-center">
+              <div >
                 <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={openModal} disabled={!selectedCity || !selectedBloodGroup}>
                   Search
                 </button>
               </div>
+
               
             </div>
+           
+              
           </div>
         </div>
       </div>

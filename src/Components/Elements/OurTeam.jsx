@@ -2,9 +2,9 @@ import React from 'react';
 
 const OurTeam = () => {
   return (
-    <section className="section-content-block section-secondary-bg section-our-team">
-      <div className="container wow fadeInUp">
-        <div className="row section-heading-wrapper">
+    <section className="section-content-block section-secondary-bg section-our-team" id='volunteers'>
+      <div className="container wow fadeInUp py-5">
+        <div className="row section-heading-wrapper py-3">
           <div className="col-md-12 col-sm-12 text-center">
             <h2 className="section-heading">Our Volunteers</h2>
             <p className="section-subheading">
