@@ -36,7 +36,7 @@ function Header() {
           <a class="nav-link active" aria-current="page" href="#volunteers">Volunteers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#req-appointment">ContactUs</a>
+          <a class="nav-link active" aria-current="page" href="#footer">ContactUs</a>
         </li>
      
        

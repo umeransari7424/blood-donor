@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../Components/Elements/Hero'
 import Registered from '../Components/Elements/Registered'
 import Becomedonor from '../Components/Elements/Becomedonor'
@@ -10,6 +10,9 @@ import Register from '../Components/Elements/Register'
 import Requestappoinment from '../Components/Elements/Requestappointment'
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
         <Hero/>
@@ -21,7 +24,6 @@ function Home() {
         <OurTeam/>
         <Register/>
         <Requestappoinment/>
-        
     </div>
   )
 }

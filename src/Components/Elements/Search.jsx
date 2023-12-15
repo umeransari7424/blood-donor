@@ -47,7 +47,7 @@ function Search() {
             <div className="text-center">
               <h1 style={{color:'black'}}>Search Donors</h1>
             </div>
-            <div className="mt-5 d-flex gap-4">
+            <div className="mt-5 d-flex gap-4 searchdropdown">
               <div>
                 {/* <label htmlFor="city">Select City:</label> &nbsp;&nbsp; */}
                 <select id="city" className="selection" value={selectedCity} onChange={handleCityChange}>
@@ -59,7 +59,7 @@ function Search() {
                     </option>
                   ))}
                 </select>
-              </div> <br />
+              </div> 
               <div>
                 <select id="bloodGroup" className="selection" value={selectedBloodGroup} onChange={handleBloodGroupChange}>
                   <option value="">Select a blood group</option>
