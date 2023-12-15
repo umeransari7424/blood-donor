@@ -16,7 +16,7 @@ function App() {
       <Base>
         <Routes>
           <Route index path='/' element={<Home/>} />
-          <Route path='/register-here' element={<Registerdonor/>} />
+          {/* <Route path='/register-here' element={<Registerdonor/>} /> */}
           <Route path='/donate-here' element={<Donateblood/>} />
           <Route path='/search-here' element={<Searchdonor/>} />
 

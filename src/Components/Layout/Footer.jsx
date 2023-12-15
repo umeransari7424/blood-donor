@@ -42,7 +42,7 @@ const handleHome = () => {
               <a href="#hero">
               <li onClick={handleHome}>HOME</li>
               </a>
-              <li onClick={handleRegister}>Registration As a Donor</li>
+              {/* <li onClick={handleRegister}>Registration As a Donor</li> */}
               <li onClick={handleDonor}>Donate The Blood</li>
               <a href="#req-appointment">
               <li >Get Appointment</li>

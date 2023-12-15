@@ -50,24 +50,25 @@ function Donorform() {
                                     <label for="exampleInputEmail1" className="form-label">Last Date of Donation</label>
                                     <input type="date" className="form-control" />
                                 </div>
-                                <div className="mb-3 w-100">
+                                
+                                </div>
+                               <div className='d-flex gap-4'>
+                               <div className="mb-3 w-100">
                                     <label for="exampleInputEmail1" className="form-label">Phone Number</label>
                                     <input type="text" className="form-control" placeholder='Enter Your Phone Number' />
                                 </div>
-                                </div>
-                               <div className='d-flex gap-4'>
                                <div className="mb-3 w-100">
                                     <label for="exampleInputEmail1" className="form-label">Address</label>
                                     <input type="text" className="form-control" placeholder='Enter Your Address'/>
                                 </div>
-                                <div className="mb-3 w-100">
+                                {/* <div className="mb-3 w-100">
                                     <label for="exampleInputEmail1" className="form-label">City</label>
                                     <input type="text" className="form-control" placeholder='Enter City Name' />
                                 </div>
                                 <div className="mb-3 w-100">
                                     <label for="exampleInputEmail1" className="form-label">Country</label>
                                     <input type="text" className="form-control" placeholder='Enter Country Name'/>
-                                </div>
+                                </div> */}
                                </div>
                                <div className='text-center'>
                                     <button className='btn btn-danger px-4 py-2'><strong>Donate Now</strong></button>
