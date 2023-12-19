@@ -15,12 +15,8 @@ function Donorform() {
                             <div className="card-body ">
                                 <div className='d-flex gap-4'>
                                 <div className="mb-3 w-100">
-                                    <label for="exampleInputEmail1" className="form-label">First Name</label>
-                                    <input type="text" className="form-control" placeholder='Enter Your First Name'/>
-                                </div>
-                                <div className="mb-3 w-100">
-                                    <label for="exampleInputEmail1" className="form-label">Last Name</label>
-                                    <input type="text" className="form-control" placeholder='Enter Your Last Name'/>
+                                    <label for="exampleInputEmail1" className="form-label">Name</label>
+                                    <input type="text" className="form-control" placeholder='Enter Your Name'/>
                                 </div>
                                 </div>
                                 <div className='d-flex gap-4'>
